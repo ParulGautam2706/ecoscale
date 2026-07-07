@@ -1,0 +1,12 @@
+{
+  "us-east-1":      { "label": "N. Virginia, USA",   "gco2_per_kwh": 380, "renewable_pct": 38 },
+  "us-west-2":      { "label": "Oregon, USA",        "gco2_per_kwh": 95,  "renewable_pct": 78 },
+  "us-central-1":   { "label": "Iowa, USA",          "gco2_per_kwh": 420, "renewable_pct": 34 },
+  "eu-west-1":      { "label": "Ireland",            "gco2_per_kwh": 300, "renewable_pct": 45 },
+  "eu-north-1":     { "label": "Stockholm, Sweden",  "gco2_per_kwh": 25,  "renewable_pct": 97 },
+  "eu-central-1":   { "label": "Frankfurt, Germany", "gco2_per_kwh": 340, "renewable_pct": 48 },
+  "ap-south-1":     { "label": "Mumbai, India",      "gco2_per_kwh": 630, "renewable_pct": 22 },
+  "ap-southeast-1": { "label": "Singapore",          "gco2_per_kwh": 400, "renewable_pct": 15 },
+  "ap-northeast-1": { "label": "Tokyo, Japan",       "gco2_per_kwh": 470, "renewable_pct": 20 },
+  "sa-east-1":      { "label": "Sao Paulo, Brazil",  "gco2_per_kwh": 90,  "renewable_pct": 82 }
+}

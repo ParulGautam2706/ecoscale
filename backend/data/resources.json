@@ -1,0 +1,590 @@
+[
+  {
+    "id": "res-001",
+    "name": "cache-eu-01",
+    "service": "EC2",
+    "instance_type": "m5.large",
+    "region": "eu-north-1",
+    "cpu_util_pct": 23.0,
+    "mem_util_pct": 28.5,
+    "uptime_hrs_month": 300,
+    "storage_gb": 20,
+    "tags": {
+      "env": "test"
+    }
+  },
+  {
+    "id": "res-002",
+    "name": "auth-us-02",
+    "service": "EC2",
+    "instance_type": "m5.large",
+    "region": "us-west-2",
+    "cpu_util_pct": 20.4,
+    "mem_util_pct": 26.2,
+    "uptime_hrs_month": 168,
+    "storage_gb": 500,
+    "tags": {
+      "env": "test"
+    }
+  },
+  {
+    "id": "res-003",
+    "name": "web-sa-03",
+    "service": "Batch-Worker",
+    "instance_type": "m5.xlarge",
+    "region": "sa-east-1",
+    "cpu_util_pct": 45.2,
+    "mem_util_pct": 64.2,
+    "uptime_hrs_month": 168,
+    "storage_gb": 250,
+    "tags": {
+      "env": "dev"
+    }
+  },
+  {
+    "id": "res-004",
+    "name": "gateway-eu-04",
+    "service": "RDS",
+    "instance_type": "m5.2xlarge",
+    "region": "eu-west-1",
+    "cpu_util_pct": 3.7,
+    "mem_util_pct": 8.6,
+    "uptime_hrs_month": 720,
+    "storage_gb": 500,
+    "tags": {
+      "env": "dev"
+    }
+  },
+  {
+    "id": "res-005",
+    "name": "auth-ap-05",
+    "service": "Batch-Worker",
+    "instance_type": "t3.small",
+    "region": "ap-northeast-1",
+    "cpu_util_pct": 90.3,
+    "mem_util_pct": 89.4,
+    "uptime_hrs_month": 168,
+    "storage_gb": 500,
+    "tags": {
+      "env": "dev"
+    }
+  },
+  {
+    "id": "res-006",
+    "name": "etl-us-06",
+    "service": "RDS",
+    "instance_type": "t3.micro",
+    "region": "us-west-2",
+    "cpu_util_pct": 68.2,
+    "mem_util_pct": 69.6,
+    "uptime_hrs_month": 720,
+    "storage_gb": 20,
+    "tags": {
+      "env": "test"
+    }
+  },
+  {
+    "id": "res-007",
+    "name": "gateway-eu-07",
+    "service": "Batch-Worker",
+    "instance_type": "t3.medium",
+    "region": "eu-central-1",
+    "cpu_util_pct": 13.0,
+    "mem_util_pct": 20.3,
+    "uptime_hrs_month": 168,
+    "storage_gb": 20,
+    "tags": {
+      "env": "staging"
+    }
+  },
+  {
+    "id": "res-008",
+    "name": "proxy-us-08",
+    "service": "RDS",
+    "instance_type": "c5.xlarge",
+    "region": "us-central-1",
+    "cpu_util_pct": 27.8,
+    "mem_util_pct": 27.8,
+    "uptime_hrs_month": 300,
+    "storage_gb": 50,
+    "tags": {
+      "env": "dev"
+    }
+  },
+  {
+    "id": "res-009",
+    "name": "auth-us-09",
+    "service": "RDS",
+    "instance_type": "m5.2xlarge",
+    "region": "us-east-1",
+    "cpu_util_pct": 10.3,
+    "mem_util_pct": 33.3,
+    "uptime_hrs_month": 300,
+    "storage_gb": 100,
+    "tags": {
+      "env": "staging"
+    }
+  },
+  {
+    "id": "res-010",
+    "name": "search-ap-10",
+    "service": "Batch-Worker",
+    "instance_type": "t3.medium",
+    "region": "ap-southeast-1",
+    "cpu_util_pct": 13.7,
+    "mem_util_pct": 26.2,
+    "uptime_hrs_month": 720,
+    "storage_gb": 500,
+    "tags": {
+      "env": "test"
+    }
+  },
+  {
+    "id": "res-011",
+    "name": "etl-eu-11",
+    "service": "Batch-Worker",
+    "instance_type": "m5.large",
+    "region": "eu-central-1",
+    "cpu_util_pct": 86.9,
+    "mem_util_pct": 88.4,
+    "uptime_hrs_month": 720,
+    "storage_gb": 20,
+    "tags": {
+      "env": "staging"
+    }
+  },
+  {
+    "id": "res-012",
+    "name": "ml-infer-sa-12",
+    "service": "Batch-Worker",
+    "instance_type": "t3.small",
+    "region": "sa-east-1",
+    "cpu_util_pct": 20.3,
+    "mem_util_pct": 24.4,
+    "uptime_hrs_month": 720,
+    "storage_gb": 500,
+    "tags": {
+      "env": "prod"
+    }
+  },
+  {
+    "id": "res-013",
+    "name": "cache-eu-13",
+    "service": "EKS-Node",
+    "instance_type": "t3.small",
+    "region": "eu-central-1",
+    "cpu_util_pct": 12.0,
+    "mem_util_pct": 15.1,
+    "uptime_hrs_month": 168,
+    "storage_gb": 100,
+    "tags": {
+      "env": "staging"
+    }
+  },
+  {
+    "id": "res-014",
+    "name": "render-eu-14",
+    "service": "EC2",
+    "instance_type": "r5.xlarge",
+    "region": "eu-north-1",
+    "cpu_util_pct": 51.0,
+    "mem_util_pct": 51.2,
+    "uptime_hrs_month": 720,
+    "storage_gb": 500,
+    "tags": {
+      "env": "prod"
+    }
+  },
+  {
+    "id": "res-015",
+    "name": "backup-ap-15",
+    "service": "EKS-Node",
+    "instance_type": "t3.micro",
+    "region": "ap-southeast-1",
+    "cpu_util_pct": 3.5,
+    "mem_util_pct": 14.9,
+    "uptime_hrs_month": 720,
+    "storage_gb": 50,
+    "tags": {
+      "env": "prod"
+    }
+  },
+  {
+    "id": "res-016",
+    "name": "web-us-16",
+    "service": "EC2",
+    "instance_type": "r5.2xlarge",
+    "region": "us-west-2",
+    "cpu_util_pct": 10.3,
+    "mem_util_pct": 30.2,
+    "uptime_hrs_month": 720,
+    "storage_gb": 50,
+    "tags": {
+      "env": "test"
+    }
+  },
+  {
+    "id": "res-017",
+    "name": "proxy-eu-17",
+    "service": "RDS",
+    "instance_type": "c5.4xlarge",
+    "region": "eu-north-1",
+    "cpu_util_pct": 90.9,
+    "mem_util_pct": 83.6,
+    "uptime_hrs_month": 300,
+    "storage_gb": 50,
+    "tags": {
+      "env": "dev"
+    }
+  },
+  {
+    "id": "res-018",
+    "name": "test-ap-18",
+    "service": "EKS-Node",
+    "instance_type": "c5.4xlarge",
+    "region": "ap-southeast-1",
+    "cpu_util_pct": 13.7,
+    "mem_util_pct": 16.3,
+    "uptime_hrs_month": 720,
+    "storage_gb": 500,
+    "tags": {
+      "env": "staging"
+    }
+  },
+  {
+    "id": "res-019",
+    "name": "etl-us-19",
+    "service": "RDS",
+    "instance_type": "t3.small",
+    "region": "us-east-1",
+    "cpu_util_pct": 46.8,
+    "mem_util_pct": 42.0,
+    "uptime_hrs_month": 720,
+    "storage_gb": 100,
+    "tags": {
+      "env": "prod"
+    }
+  },
+  {
+    "id": "res-020",
+    "name": "render-eu-20",
+    "service": "RDS",
+    "instance_type": "r5.xlarge",
+    "region": "eu-north-1",
+    "cpu_util_pct": 19.2,
+    "mem_util_pct": 29.5,
+    "uptime_hrs_month": 300,
+    "storage_gb": 500,
+    "tags": {
+      "env": "test"
+    }
+  },
+  {
+    "id": "res-021",
+    "name": "web-ap-21",
+    "service": "Batch-Worker",
+    "instance_type": "m5.large",
+    "region": "ap-south-1",
+    "cpu_util_pct": 5.6,
+    "mem_util_pct": 8.5,
+    "uptime_hrs_month": 480,
+    "storage_gb": 250,
+    "tags": {
+      "env": "prod"
+    }
+  },
+  {
+    "id": "res-022",
+    "name": "cache-ap-22",
+    "service": "EC2",
+    "instance_type": "r5.2xlarge",
+    "region": "ap-south-1",
+    "cpu_util_pct": 25.4,
+    "mem_util_pct": 20.0,
+    "uptime_hrs_month": 720,
+    "storage_gb": 500,
+    "tags": {
+      "env": "test"
+    }
+  },
+  {
+    "id": "res-023",
+    "name": "db-us-23",
+    "service": "Batch-Worker",
+    "instance_type": "m5.xlarge",
+    "region": "us-central-1",
+    "cpu_util_pct": 25.6,
+    "mem_util_pct": 16.5,
+    "uptime_hrs_month": 300,
+    "storage_gb": 20,
+    "tags": {
+      "env": "prod"
+    }
+  },
+  {
+    "id": "res-024",
+    "name": "proxy-us-24",
+    "service": "EC2",
+    "instance_type": "m5.large",
+    "region": "us-west-2",
+    "cpu_util_pct": 4.4,
+    "mem_util_pct": 7.1,
+    "uptime_hrs_month": 480,
+    "storage_gb": 20,
+    "tags": {
+      "env": "staging"
+    }
+  },
+  {
+    "id": "res-025",
+    "name": "test-ap-25",
+    "service": "EC2",
+    "instance_type": "m5.xlarge",
+    "region": "ap-south-1",
+    "cpu_util_pct": 96.0,
+    "mem_util_pct": 84.8,
+    "uptime_hrs_month": 168,
+    "storage_gb": 500,
+    "tags": {
+      "env": "test"
+    }
+  },
+  {
+    "id": "res-026",
+    "name": "db-eu-26",
+    "service": "RDS",
+    "instance_type": "m5.large",
+    "region": "eu-north-1",
+    "cpu_util_pct": 93.1,
+    "mem_util_pct": 89.2,
+    "uptime_hrs_month": 168,
+    "storage_gb": 100,
+    "tags": {
+      "env": "prod"
+    }
+  },
+  {
+    "id": "res-027",
+    "name": "auth-ap-27",
+    "service": "Batch-Worker",
+    "instance_type": "c5.4xlarge",
+    "region": "ap-northeast-1",
+    "cpu_util_pct": 7.7,
+    "mem_util_pct": 5.8,
+    "uptime_hrs_month": 720,
+    "storage_gb": 20,
+    "tags": {
+      "env": "prod"
+    }
+  },
+  {
+    "id": "res-028",
+    "name": "web-us-28",
+    "service": "Batch-Worker",
+    "instance_type": "r5.large",
+    "region": "us-west-2",
+    "cpu_util_pct": 20.3,
+    "mem_util_pct": 27.4,
+    "uptime_hrs_month": 480,
+    "storage_gb": 500,
+    "tags": {
+      "env": "dev"
+    }
+  },
+  {
+    "id": "res-029",
+    "name": "gateway-eu-29",
+    "service": "RDS",
+    "instance_type": "m5.large",
+    "region": "eu-central-1",
+    "cpu_util_pct": 11.5,
+    "mem_util_pct": 27.9,
+    "uptime_hrs_month": 480,
+    "storage_gb": 100,
+    "tags": {
+      "env": "prod"
+    }
+  },
+  {
+    "id": "res-030",
+    "name": "api-sa-30",
+    "service": "Batch-Worker",
+    "instance_type": "r5.large",
+    "region": "sa-east-1",
+    "cpu_util_pct": 86.0,
+    "mem_util_pct": 83.6,
+    "uptime_hrs_month": 720,
+    "storage_gb": 50,
+    "tags": {
+      "env": "dev"
+    }
+  },
+  {
+    "id": "res-031",
+    "name": "worker-eu-31",
+    "service": "RDS",
+    "instance_type": "m5.xlarge",
+    "region": "eu-central-1",
+    "cpu_util_pct": 6.8,
+    "mem_util_pct": 12.0,
+    "uptime_hrs_month": 300,
+    "storage_gb": 500,
+    "tags": {
+      "env": "prod"
+    }
+  },
+  {
+    "id": "res-032",
+    "name": "proxy-us-32",
+    "service": "EKS-Node",
+    "instance_type": "t3.medium",
+    "region": "us-west-2",
+    "cpu_util_pct": 25.9,
+    "mem_util_pct": 29.8,
+    "uptime_hrs_month": 720,
+    "storage_gb": 100,
+    "tags": {
+      "env": "dev"
+    }
+  },
+  {
+    "id": "res-033",
+    "name": "backup-eu-33",
+    "service": "RDS",
+    "instance_type": "m5.large",
+    "region": "eu-central-1",
+    "cpu_util_pct": 70.6,
+    "mem_util_pct": 55.2,
+    "uptime_hrs_month": 720,
+    "storage_gb": 20,
+    "tags": {
+      "env": "prod"
+    }
+  },
+  {
+    "id": "res-034",
+    "name": "legacy-us-34",
+    "service": "EKS-Node",
+    "instance_type": "t3.micro",
+    "region": "us-east-1",
+    "cpu_util_pct": 11.5,
+    "mem_util_pct": 34.6,
+    "uptime_hrs_month": 720,
+    "storage_gb": 250,
+    "tags": {
+      "env": "test"
+    }
+  },
+  {
+    "id": "res-035",
+    "name": "proxy-us-35",
+    "service": "EC2",
+    "instance_type": "t3.small",
+    "region": "us-west-2",
+    "cpu_util_pct": 94.7,
+    "mem_util_pct": 82.5,
+    "uptime_hrs_month": 720,
+    "storage_gb": 100,
+    "tags": {
+      "env": "staging"
+    }
+  },
+  {
+    "id": "res-036",
+    "name": "legacy-us-36",
+    "service": "RDS",
+    "instance_type": "m5.xlarge",
+    "region": "us-east-1",
+    "cpu_util_pct": 26.7,
+    "mem_util_pct": 34.4,
+    "uptime_hrs_month": 720,
+    "storage_gb": 100,
+    "tags": {
+      "env": "staging"
+    }
+  },
+  {
+    "id": "res-037",
+    "name": "web-eu-37",
+    "service": "EC2",
+    "instance_type": "c5.4xlarge",
+    "region": "eu-central-1",
+    "cpu_util_pct": 90.7,
+    "mem_util_pct": 90.6,
+    "uptime_hrs_month": 720,
+    "storage_gb": 50,
+    "tags": {
+      "env": "staging"
+    }
+  },
+  {
+    "id": "res-038",
+    "name": "ml-infer-us-38",
+    "service": "Batch-Worker",
+    "instance_type": "t3.medium",
+    "region": "us-east-1",
+    "cpu_util_pct": 55.0,
+    "mem_util_pct": 67.9,
+    "uptime_hrs_month": 168,
+    "storage_gb": 50,
+    "tags": {
+      "env": "dev"
+    }
+  },
+  {
+    "id": "res-039",
+    "name": "ml-infer-ap-39",
+    "service": "EC2",
+    "instance_type": "t3.micro",
+    "region": "ap-south-1",
+    "cpu_util_pct": 88.1,
+    "mem_util_pct": 93.9,
+    "uptime_hrs_month": 480,
+    "storage_gb": 100,
+    "tags": {
+      "env": "dev"
+    }
+  },
+  {
+    "id": "res-040",
+    "name": "web-us-40",
+    "service": "RDS",
+    "instance_type": "r5.xlarge",
+    "region": "us-east-1",
+    "cpu_util_pct": 3.3,
+    "mem_util_pct": 13.6,
+    "uptime_hrs_month": 720,
+    "storage_gb": 100,
+    "tags": {
+      "env": "test"
+    }
+  },
+  {
+    "id": "res-041",
+    "name": "proxy-us-41",
+    "service": "EKS-Node",
+    "instance_type": "t3.small",
+    "region": "us-east-1",
+    "cpu_util_pct": 88.7,
+    "mem_util_pct": 89.9,
+    "uptime_hrs_month": 720,
+    "storage_gb": 20,
+    "tags": {
+      "env": "prod"
+    }
+  },
+  {
+    "id": "res-042",
+    "name": "backup-eu-42",
+    "service": "Batch-Worker",
+    "instance_type": "r5.2xlarge",
+    "region": "eu-central-1",
+    "cpu_util_pct": 58.1,
+    "mem_util_pct": 69.5,
+    "uptime_hrs_month": 720,
+    "storage_gb": 250,
+    "tags": {
+      "env": "staging"
+    }
+  }
+]

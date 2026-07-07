@@ -1,0 +1,14 @@
+{
+  "t3.micro":    { "vcpu": 2,  "ram_gb": 1,   "hourly_usd": 0.0104, "watts": 12  },
+  "t3.small":    { "vcpu": 2,  "ram_gb": 2,   "hourly_usd": 0.0208, "watts": 18  },
+  "t3.medium":   { "vcpu": 2,  "ram_gb": 4,   "hourly_usd": 0.0416, "watts": 25  },
+  "m5.large":    { "vcpu": 2,  "ram_gb": 8,   "hourly_usd": 0.096,  "watts": 45  },
+  "m5.xlarge":   { "vcpu": 4,  "ram_gb": 16,  "hourly_usd": 0.192,  "watts": 85  },
+  "m5.2xlarge":  { "vcpu": 8,  "ram_gb": 32,  "hourly_usd": 0.384,  "watts": 160 },
+  "c5.large":    { "vcpu": 2,  "ram_gb": 4,   "hourly_usd": 0.085,  "watts": 50  },
+  "c5.xlarge":   { "vcpu": 4,  "ram_gb": 8,   "hourly_usd": 0.17,   "watts": 95  },
+  "c5.4xlarge":  { "vcpu": 16, "ram_gb": 32,  "hourly_usd": 0.68,   "watts": 320 },
+  "r5.large":    { "vcpu": 2,  "ram_gb": 16,  "hourly_usd": 0.126,  "watts": 55  },
+  "r5.xlarge":   { "vcpu": 4,  "ram_gb": 32,  "hourly_usd": 0.252,  "watts": 105 },
+  "r5.2xlarge":  { "vcpu": 8,  "ram_gb": 64,  "hourly_usd": 0.504,  "watts": 200 }
+}
